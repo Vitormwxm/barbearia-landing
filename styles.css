@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: rgba(7, 10, 20, 0.90);
+    height: 90px;
+    display: flex;                               
+    align-items: center;                           
+    padding: 0 36px;                          
+}
+
+.logo-img img {
+    width: 60px;
+    height: auto;
+}
+
+.container-menu {
+    gap: 32px;
+    padding: 30px;                                     
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;                                  
+    gap: 32px;
+    width: 100%;
+}
+
+
+
+.link-menu {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px;                                         
+}
+
+.button-agendar {
+    color: #0D121E;
+    font-size: 16px;
+    font-weight: 700;
+    background: #F0B35B;
+    border-radius: 4px;
+    padding: 10px 20px;             
+    border: none;                   
+    cursor: pointer;  
+    
+}
+
+.first-section{
+    background-image: url(./assets/Rectangle_agenda.png);
+    height: 820px;
+    
+    
+    
+}
+
+.title-first-section{
+    color: var(--White, #FFF);
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    padding: 232px;
+   
+}
+
+.paragraph-button-first-section{
+    color: var(--White, #FFF);
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.85);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+   
+    
+    
+    
+}
