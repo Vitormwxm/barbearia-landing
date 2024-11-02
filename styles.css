@@ -122,3 +122,31 @@ header {
     line-height: normal;
 }
 
+.container-section-services{
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 773px;
+}
+
+.img-services{
+    display: flex;
+    gap: 24px;
+}
+
+.first-box-service{
+    padding: 104px;
+}
+
+.container-section-services h1{
+    color: var(--Blue, #0D121E);
+    font-family: Poppins;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img-services{
+    padding-left: 198px;
+}
