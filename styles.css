@@ -150,3 +150,17 @@ header {
 .img-services{
     padding-left: 198px;
 }
+
+.img-footer{
+    display: flex;
+    gap: 25.5px;
+    justify-content: center;
+    margin-top: 143px;    
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 118px;
+}
