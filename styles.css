@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 header {
@@ -53,10 +54,16 @@ header {
     
 }
 
+
 .first-section{
     background-image: url(./assets/Rectangle_agenda.png);
     height: 820px;  
-}
+    background-size: cover ; /*ajusta a imagem para cobrir a área*/
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;}
 
 .title-first-section{
     color: var(--White, #FFF);
@@ -67,7 +74,9 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
-    padding: 232px;
+    
+    width: 100%;
+   
    
 }
 
@@ -100,7 +109,16 @@ header {
 .container-section-about{
     background: var(--Blue, #0D121E);
     height: 773px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container-left{
+    display: flex;
+    gap: 20px;
+    position: relative;
 }
 
 .container-right h1{
@@ -111,15 +129,20 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 144px;
 }
 
 .container-right p{
     color: var(--White, #FFF);
     font-family: Poppins;
+    padding: 5px;
+    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
+    
 }
 
 .container-section-services{
@@ -136,6 +159,8 @@ header {
 .first-box-service{
     padding: 104px;
 }
+
+
 
 .container-section-services h1{
     color: var(--Blue, #0D121E);
