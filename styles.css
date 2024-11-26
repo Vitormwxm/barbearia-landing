@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
+     
     
 }
 
@@ -58,7 +60,7 @@ header {
 .first-section{
     background-image: url(./assets/Rectangle_agenda.png);
     height: 820px;  
-    background-size: cover ; /*ajusta a imagem para cobrir a área*/
+    background-size: cover ; 
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -105,42 +107,78 @@ header {
     height: 44px;
     flex-shrink: 0;
 }
-
 .container-section-about{
     background: var(--Blue, #0D121E);
     height: 773px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
+    box-sizing: border-box; 
+    width: 100%;
+    padding: 0 20px;
 }
+
 
 .container-left{
     display: flex;
     gap: 20px;
+    flex-direction: column;
     position: relative;
+}
+
+.img-1{
+    position: absolute;
+    z-index: 0;
+    left: 54px;
+    top: 100px
+}
+
+
+.img-2 {
+    position: absolute; 
+    left: 341px;
+    bottom: 104px;
+    z-index: 1;
+    
+}
+
+.img-3 {
+    position: relative;
+    top: 120px;
+    left: 536px;
+}
+
+.container-right {
+    text-align: right;
+    width: 44%;
+    margin-bottom: 144px;
 }
 
 .container-right h1{
     color: var(--White, #FFF);
-    text-align: center;
+    text-align: justify;
     font-family: Poppins;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 144px;
+    
+
 }
 
 .container-right p{
+    position: relative;
     color: var(--White, #FFF);
     font-family: Poppins;
+    display: flex;
+    justify-content: space-between;
     padding: 5px;
-    text-align: center;
+    text-align:justify;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 10px;
     
     
 }
