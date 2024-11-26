@@ -150,9 +150,11 @@ header {
 
 .container-right {
     text-align: right;
-    width: 44%;
+    width: 40%; /*/*/
+    padding: 0 20px; /**/
     margin-bottom: 144px;
 }
+
 
 .container-right h1{
     color: var(--White, #FFF);
@@ -179,9 +181,12 @@ header {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 10px;
-    
+    max-width: 100%; /* Limita o texto para não sair do contêiner */ 
+    word-wrap: break-word; /*
+    */
     
 }
+
 
 .container-section-services{
     background: var(--White, #FFF);
@@ -227,3 +232,19 @@ header {
     margin-top: 20px;
     margin-bottom: 118px;
 }
+
+/*
+Aplicar a responsividade no fim do projeto
+@media (max-width: 768px) {
+    .container-right {
+        width: 100%; // Alinha para ocupar toda a tela menor 
+        padding: 20px;
+        text-align: center; //Ajusta o alinhamento 
+    }
+
+    .container-left {
+        display: none; // Esconde as imagens laterais se necessário 
+    }
+
+}
+*/
