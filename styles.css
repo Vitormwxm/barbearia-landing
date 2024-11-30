@@ -191,19 +191,64 @@ header {
 .container-section-services{
     background: var(--White, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    height: 773px;
+    padding-bottom: 165px;
+    
 }
 
 .img-services{
     display: flex;
     gap: 24px;
+
 }
 
 .first-box-service{
     padding: 104px;
 }
 
+.paragraph-service{
+    color: var(--blue-1, #080B16);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+figcaption{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+.paragraph-text{
+    color: var(--blue-1, #080B16);
+    text-align: center;
+    padding: 19px 0px 18px 14px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.paragraph-value{
+    color: #FFF;
+    margin-right: 20px;
+    margin-top: 13px;
+    font-family: Poppins;
+    font-size: 14px;
+    padding: 7px 11px 8px 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    height: 36px;
+    background: var(--Blue, #0D121E);
+}
 
 .container-section-services h1{
     color: var(--Blue, #0D121E);
@@ -216,8 +261,15 @@ header {
 }
 
 .img-services{
-    padding-left: 198px;
+   margin-left: 198px;
+    
 }
+
+figure{
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 
 .img-footer{
     display: flex;
