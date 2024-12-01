@@ -315,47 +315,6 @@ figure{
     flex-wrap: wrap;
     gap: 20px;
 }
-/*.container-time{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 26px;
-    background: var(--blue-1, #080B16);
-    height: 610px;
-    align-items: center;
-
-}
-
-.container-time h1{
-    color: #6C6C6C;
-    font-family: Poppins;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 7.26px;
-    transform: rotate(-90deg);
-    display: flex;
-
-}
-
-.img-time{
-    width: 318px;
-    height: 354px;
-    max-width: 1140px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 26px;
-    border-radius: 8px;
-    flex-direction: column;
-    align-content: center;
-   
-
-}
-
-*/
-
 
 .img-footer{
     display: flex;
