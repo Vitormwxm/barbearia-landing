@@ -191,7 +191,9 @@ header {
 .container-section-services{
     background: var(--White, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding-bottom: 165px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
     height: 100% 
     
     
@@ -200,7 +202,12 @@ header {
 
 
 .first-box-service{
-    padding: 104px;
+        max-width: 1140px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        gap: 30px;
 }
 
 .paragraph-service{
@@ -220,6 +227,7 @@ header {
 .img-services{
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
     
     
 }
@@ -267,15 +275,86 @@ figcaption{
     line-height: normal;
 }
 
-.img-services{
-   margin-left: 198px;
-    
-}
 
 figure{
     border-radius: 0px 0px 16px 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+.container-section-time{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background: var(--blue-1, #080B16);
+}
+
+.container-section-time h1{
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.26px;
+}
+
+
+
+.box-time{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+.img-time{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/*.container-time{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+    background: var(--blue-1, #080B16);
+    height: 610px;
+    align-items: center;
+
+}
+
+.container-time h1{
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.26px;
+    transform: rotate(-90deg);
+    display: flex;
+
+}
+
+.img-time{
+    width: 318px;
+    height: 354px;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    border-radius: 8px;
+    flex-direction: column;
+    align-content: center;
+   
+
+}
+
+*/
 
 
 .img-footer{
