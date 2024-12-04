@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -287,8 +287,18 @@ figure{
     padding: 100px;
     background: var(--blue-1, #080B16);
 }
+.box-time{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+   
+  
 
-.container-section-time h1{
+}
+.box-time h1{
     color: #6C6C6C;
     font-family: Poppins;
     font-size: 44px;
@@ -296,18 +306,17 @@ figure{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 7.26px;
-}
-
-
-
-.box-time{
-    max-width: 1140px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 40%;
+    left: -25%;
+    
+    
+   
 
 }
+
+
 
 
 .img-time{
