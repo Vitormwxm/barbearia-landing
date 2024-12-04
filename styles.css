@@ -308,7 +308,7 @@ figure{
     letter-spacing: 7.26px;
     transform: rotate(-90deg);
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: -25%;
     
     
@@ -316,6 +316,18 @@ figure{
 
 }
 
+.img-time p{
+    position: relative;
+    bottom: 11%;
+    color: var(--Orange, #F0B35B);
+    font-family: Poppins;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
 
 
 
