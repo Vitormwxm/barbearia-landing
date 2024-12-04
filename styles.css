@@ -329,6 +329,12 @@ figure{
     
 }
 
+.icons-time{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
 
 
 .img-time{
