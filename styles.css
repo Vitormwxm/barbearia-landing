@@ -335,12 +335,36 @@ figure{
     gap: 17px;
 }
 
-
-
 .img-time{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.container-section-unidades{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    height: 100% 
+}
+
+.container-section-unidades h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: nor;
+    text-align: center;
+
+}
+
+.img-unidades{
+   display: flex; 
+   flex-direction: row;
+   gap: 47px;
+   flex-wrap: wrap;
+
+   
 }
 
 .img-footer{
@@ -356,6 +380,8 @@ figure{
     margin-top: 20px;
     margin-bottom: 118px;
 }
+
+
 
 /*
 Aplicar a responsividade no fim do projeto
