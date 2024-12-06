@@ -107,90 +107,90 @@ header {
     height: 44px;
     flex-shrink: 0;
 }
+
 .container-section-about{
-    background: var(--Blue, #0D121E);
-    height: 773px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box; 
-    padding: 0 20px;
-   
-    
-    
+        background: var(--Blue, #0D121E);
+        height: 773px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box; 
+        padding: 0 20px;
+        
+       
+        
+        
 }
-
-
-.container-left{
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    position: relative;
-    max-width: 1140px;
     
+    
+    .container-left{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        position: relative;
+        max-width: 1140px;
 }
-
+    
 .img-1{
-    position: absolute;
-    z-index: 0;
-    left: 54px;
-    top: 100px
+        position: absolute;
+        z-index: 0;
+        left: 54px;
+        top: 100px
 }
-
-
-.img-2 {
-    position: absolute; 
-    left: 341px;
-    bottom: 104px;
-    z-index: 1;
+    
+    
+    .img-2 {
+        position: absolute; 
+        left: 341px;
+        bottom: 104px;
+        z-index: 1;
+        
+}
+    
+    .img-3 {
+        position: relative;
+        top: 120px;
+        left: 536px;
+}
+    
+    .container-right {
+        text-align: right;
+        width: 40%; 
+        padding: 0 20px; 
+        margin-bottom: 144px;
+        
+}
+    
+    
+    .container-right h1{
+        color: var(--White, #FFF);
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
     
 }
-
-.img-3 {
-    position: relative;
-    top: 120px;
-    left: 536px;
-}
-
-.container-right {
-    text-align: right;
-    width: 40%; /*/*/
-    padding: 0 20px; /**/
-    margin-bottom: 144px;
-}
-
-
-.container-right h1{
-    color: var(--White, #FFF);
-    text-align: justify;
-    font-family: Poppins;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     
-
-}
-
-.container-right p{
-    position: relative;
-    color: var(--White, #FFF);
-    font-family: Poppins;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    text-align:justify;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 10px;
-    max-width: 100%; /* Limita o texto pra ficar dentro container */ 
-    word-wrap: break-word; /*
-    */
-    
-}
-
+    .container-right p{
+        position: relative;
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        text-align:justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 10px;
+        max-width: 1024px; /* Limita o texto pra ficar dentro container */ 
+        word-wrap: break-word;
+        
+ }
 
 .container-section-services{
     background: var(--White, #FFF);
@@ -369,7 +369,8 @@ figure{
 .img-unidades{
     display: flex;
     gap: 44px;
-    flex-wrap: wrap;
+    
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     padding: 100px;
@@ -440,19 +441,3 @@ figure{
 }
 
 
-
-/*
-Aplicar a responsividade no fim do projeto
-@media (max-width: 768px) {
-    .container-right {
-        width: 100%; // Alinha para ocupar toda a tela menor 
-        padding: 20px;
-        text-align: center; //Ajusta o alinhamento 
-    }
-
-    .container-left {
-        display: none; // Esconde as imagens laterais se necessário 
-    }
-
-}
-*/
