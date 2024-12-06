@@ -114,8 +114,10 @@ header {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box; 
-    width: 100%;
     padding: 0 20px;
+   
+    
+    
 }
 
 
@@ -124,6 +126,8 @@ header {
     gap: 20px;
     flex-direction: column;
     position: relative;
+    max-width: 1140px;
+    
 }
 
 .img-1{
@@ -228,6 +232,8 @@ header {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
     
 }
@@ -338,6 +344,8 @@ figure{
 .img-time{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+   
     gap: 20px;
 }
 
@@ -353,32 +361,82 @@ figure{
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: nor;
+    line-height: normal;
     text-align: center;
 
 }
 
 .img-unidades{
-   display: flex; 
-   flex-direction: row;
-   gap: 47px;
-   flex-wrap: wrap;
+    display: flex;
+    gap: 44px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+    max-width: 1080px;
+   
 
    
 }
 
+.paragraph-unidade-in{
+    border-radius: 8px;
+    border: 1px solid #4A4A4A;
+    background: black;
+    backdrop-filter: blur(2px);
+    width: 251px;
+    height: 68px;
+    position: absolute;  
+    transform: translate(35%, -135%); 
+    padding: 10px;
+    text-align: center; /* Centraliza o texto */
+
+    
+    }
+
+.paragraph-unid1{
+    color:#FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    
+    
+}
+
+.paragraph-unid2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
 .img-footer{
     display: flex;
-    gap: 25.5px;
+    gap: 24px;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 143px;    
+    align-items: center;
+   
+    
+    
 }
 
 .logo-footer{
     display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 118px;
+    align-items: center;
+    padding: 10px;
 }
 
 
