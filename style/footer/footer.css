@@ -1,0 +1,19 @@
+.img-footer{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+.logo-footer{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+@import 'global/global.css';
+@import 'header/header.css';
+@import 'main/firstsection.css';
+@import 'main/about.css';
+@import 'main/service.css';
+@import 'main/time.css';
+@import 'main/unidades.css';
+@import 'styles.css';
+@import 'footer/footer.css';
+
+
+
+@media screen  and (max-width: 700px){
+    .box-time h1{
+        transform: rotate(0deg);
+        top: 0%;
+        left: 0%;
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .container-all {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+   
+
+    .container-left {
+        width: 100%;
+    }
+
+    .title-first-section {
+
+        font-size: 32px;
+
+    }
+}
+
+
+
